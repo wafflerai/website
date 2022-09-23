@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="Lei Shen" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Website</title>
+    <link rel="stylesheet" href="web.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">HELLO</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#tools" class="navbar__links" id="tools-page">Tools</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#contact-me" class="button" id="contact-page">Contact me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- intro Section -->
+    <div class="intro" id="home">
+      <div class="intro__container">
+        <h1 class="intro__heading">Hi, I'm <span>Lei Shen</span></h1>
+        <p class="intro__description">This is my sample website</p>
+        <button class="main__btn" onclick="window.location.href='#about';">
+          <a href="#about">Explore</a>
+        </button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card"></div>
+        </div>
+        <div class="main__content">
+          <h1>About me</h1>
+          <h2>A network engineer transitioning to software</h2>
+          <p>I am a graduate of The University of Texas at Dallas. I recieved my bachelors degree
+               in computer science in 2020. I started working for Cisco in 2019 as a co-op and transitioned 
+               into a full time position with Experis in 2020. (Experis is a contracting company for Cisco) 
+               I started teaching myself CSS, HTML, and Javascript around halfway through January 2022. 
+               I also have previous experience with python and java through both a previous job and college 
+               classes. My current hobbies include fishing, rock climbing, board games, and video games.</p>
+          <button class="main__btn" onclick="window.location.href='#tools';">
+            <a href="#tools">Next Section</a>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- tools Section -->
+    <div class="tools" id="tools">
+      <h1>Tools used</h1>
+      <div class="tools__wrapper">
+        <div class="tools__card">
+          <h2>Visual Studio Code</h2>
+          <p>Open source IDE</p>
+          <div class="tools__btn">
+            <button onclick="window.location.href='https://code.visualstudio.com/';">
+              <a href="https://code.visualstudio.com/">Visit Site</a>
+            </button>
+          </div>
+        </div>
+        <div class="tools__card">
+          <h2>Live Server</h2>
+          <p>VSCode extention for live server updates</p>
+          <div class="tools__btn">
+            <button onclick="window.location.href='https://chrome.google.com/webstore/detail/live-server-web-extension/fiegdmejfepffgpnejdinekhfieaogmj?hl=en-US';">
+              <a href="https://chrome.google.com/webstore/detail/live-server-web-extension/fiegdmejfepffgpnejdinekhfieaogmj?hl=en-US">Visit Site</a>
+            </button>
+          </div>
+        </div>
+        <div class="tools__card">
+          <h2>Google</h2>
+          <p>Programmer's best friend</p>
+          <div class="tools__btn">
+            <button onclick="window.location.href='https://google.com';">
+              <a href="https://google.com">Visit Site</a>
+            </button>
+          </div>
+        </div>
+        <div class="tools__card">
+          <h2>uigradients.com</h2>
+          <p>generates gradients for css</p>
+          <div class="tools__btn">
+            <button onclick="window.location.href='https://uigradients.com/';">
+              <a href="https://uigradients.com/">Visit Site</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="main" id="contact-me">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Email me at</h1>
+          <h2>leishen.ms@gmail.com</h2>
+          <button class="main__btn" onclick="window.location.href='#';">
+            <a href="#">To Top</a>
+          </button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About</h2>
+            <a>link</a> 
+            <a>link</a>
+            <a>link</a> 
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact</h2>
+            <a href="https://www.linkedin.com/in/lei-shen-585687116/">Linkedin</a> 
+            <a>link</a>
+            <a>link</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Media</h2>
+            <a>link</a> 
+            <a>link</a>
+            <a>link</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social</h2>
+            <a>link</a> 
+            <a>link</a>
+            <a>link</a> 
+          </div>
+        </div>
+      </div>
+      <section class="social__contact">
+        <div class="social__contact--wrap">
+          <div class="footer__logo">
+            <a id="footer__logo">HELLO</a>
+          </div>
+          <p class="website__contact">Contact me @ leishen.ms@gmail.com</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="web.js"></script>
+  </body>
+</html>

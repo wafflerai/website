@@ -1,2 +1,2 @@
-# website
-practice website
+# N/a
+Sample website
